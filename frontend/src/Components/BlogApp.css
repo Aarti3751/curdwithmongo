@@ -1,0 +1,124 @@
+/* BlogApp.css */
+
+body {
+    background-color: #1a1a2e;
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff6f61;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.blog-detail {
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.blog-detail h2 {
+    color: #ff6f61;
+}
+
+.card {
+    background-color: white;
+    color:black;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #dcdcdc;
+    line-height: 1.6;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+button.btn-link {
+    font-size: 0.9rem;
+    color: #00d4ff;
+    text-decoration: underline;
+    padding: 0;
+}
+
+button.btn-link:hover {
+    color: #ff6f61;
+}
+
+.modal-content {
+    background-color: #2d2d44;
+    color: #f0f0f0;
+    border-radius: 8px;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: 1px solid #444;
+}
+
+.modal-title {
+    color: #ff6f61;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #333;
+    color: #f0f0f0;
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    background-color: #444;
+    color: #fff;
+    border-color: #ff6f61;
+    box-shadow: 0px 0px 0px 2px rgba(255, 111, 97, 0.5);
+}
+
+button.btn-primary {
+    background-color: #ff6f61;
+    border: none;
+}
+
+button.btn-primary:hover {
+    background-color: #ff5a4a;
+}
+
+button.btn-secondary {
+    background-color: #444;
+    color: #fff;
+    border: none;
+}
+
+button.btn-secondary:hover {
+    background-color: #555;
+}
